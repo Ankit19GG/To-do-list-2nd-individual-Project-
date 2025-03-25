@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
     <link rel="stylesheet" href="Todo.css">
     <title>To Do List</title>
 </head>
@@ -10,10 +11,31 @@
     <div class="maincontainer">
           <div class="innercontainer">
             <p class="todo">To Do List</p>
-            
+            <p class="motivation">"Consistency beats talent."</p>
+            <div class="progressbar"></div>
           </div>
           <div class="progresscircle"></div>
     </div>
-    <script src="Todo.js"></script>
+    <div class="taskinput">
+    <div class="inputtask">
+        <input type="text" class="task" placeholder="Enter Task">
+        <input type="date-time" class="datetime" placeholder="Select Date and Time">
+        </div>
+        <button class="addtask"></button>
+    </div>
+    <div class="taskcontainer">
+        <div class="tasklist">
+            <div class="task">
+                <div class="checkbox"></div>
+                <label for="myCheckbox">
+                    <p class="taskname"></p>
+                    <p class="taskdatetime"></p>
+                    <div class="deletetask"></div>
+                </label>
+            </div>
+        </div>
+    </div>
+<script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+<script src="Todo.js"></script>
 </body>
 </html>

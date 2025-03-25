@@ -1,0 +1,99 @@
+.addtask{
+    background-image: url(add.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin-left: 20px;
+}
+body{
+    color: rgb(229, 228, 228);
+    background-image: url(background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: cursive;
+}
+.maincontainer{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+    background-color: rgba(255, 0, 0, 0);
+    height: 200px;
+    width: 800px;
+    margin-top: 80px;
+    border-radius: 30px;
+    border: 2px solid rgb(197, 197, 197);
+    box-shadow: 0 0 15px 5px rgb(0, 0, 0);
+}
+.todo{
+    font-size: 30px;
+    font-weight: bold;
+    margin: 10px 0px 10px 0px;
+}
+.motivation{
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0px 0px 10px 0px;
+}
+.progresscircle{
+    height: 110px;
+    width: 110px;
+    background-color: azure;
+    border-radius: 50%;
+}
+.progressbar{
+    height: 20px;
+    width: 400px;
+    background-color: azure;
+    border-radius: 10px;
+    margin: 30px 0px 20px 0px;
+}
+.innercontainer{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    height : 204px;
+    width: 500px;
+}
+.inputtask{
+    height: 50px;
+    width: 720px;
+    border-radius:20px;
+    border: 2px solid rgb(197, 197, 197);
+    box-shadow: 0 0 15px 5px rgb(0, 0, 0);
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(0, 0, 0, 0.697);
+}
+.task{
+    width: 435px;
+    border-radius: 20px 0px 0px 20px ;
+    padding-left: 20px;
+    justify-self: left;
+    background-color: rgba(0, 115, 255, 0.14);
+    color: rgb(229, 228, 228);
+}
+.datetime{
+    width: 285px;
+    border-radius: 0px 20px 20px 0px;
+    padding-left: 20px;
+    background-color: rgba(0, 115, 255, 0.14);
+    color: rgb(229, 228, 228);
+}
+.taskinput{
+    height: 50px;
+    width: 800px;
+    border-radius:20px;
+    margin: 10px 0px 10px 0px;
+    display: flex;
+    flex-direction: row;
+}
