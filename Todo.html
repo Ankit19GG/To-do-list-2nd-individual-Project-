@@ -12,30 +12,24 @@
           <div class="innercontainer">
             <p class="todo">To Do List</p>
             <p class="motivation">"Consistency beats talent."</p>
-            <div class="progressbar"></div>
+            <div class="progressbar" id="progressbar">
+                <div class="progress" id="progress"></div>
+            </div>
           </div>
-          <div class="progresscircle"></div>
+          <p class="progresscircle" id="progresscircle">0/0</p>
     </div>
     <div class="taskinput">
     <div class="inputtask">
-        <input type="text" class="task" placeholder="Enter Task">
-        <input type="date-time" class="datetime" placeholder="Select Date and Time">
+        <input type="text" id="taskname" placeholder="Enter Task">
+        <input type="date-time" id="time" class="datetime" placeholder="Select Date and Time">
         </div>
-        <button class="addtask"></button>
+        <button id="addtask" type="submit"></button>
     </div>
-    <div class="taskcontainer">
-        <div class="tasklist">
-            <div class="task">
-                <div class="checkbox"></div>
-                <label for="myCheckbox">
-                    <p class="taskname"></p>
-                    <p class="taskdatetime"></p>
-                    <div class="deletetask"></div>
-                </label>
-            </div>
-        </div>
-    </div>
+        <ul id="tasklist">
+            
+        </ul>
 <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
 <script src="Todo.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@tsparticles/confetti@3.0.3/tsparticles.confetti.bundle.min.js"></script>
 </body>
 </html>
